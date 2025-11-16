@@ -1,0 +1,28 @@
+---
+title: Inicio para Usuarios
+description: Página principal del Usuario y acciones disponibles
+tags:
+  - Usuario
+  - Inicio
+pubDate: 2025-11-16
+---
+
+import Figure from '../../components/Figure.astro'
+
+## Domicilios en ejecución
+Tarjetas en tiempo real con estado, origen, destino, domiciliario asignado.
+
+- 🟦 Solicitado/Asignado
+- 🟩 En camino
+- ✅ Entregado
+
+## Acciones principales
+- Botón `Solicitar Domicilio` en azul destacado
+- Cancelar domicilio cuando el estado es "Solicitado" o "Asignado"
+
+<Figure src="/images/inicio-usuarios-tarjeta.png" alt="Tarjeta de domicilio en ejecución" caption="Vista de tarjeta con estados y acciones" />
+
+## Formulario de nuevo pedido
+Campos: origen, destino, descripción, tipo de envío.
+
+![Formulario nuevo pedido](/images/inicio-usuarios-formulario.png)
