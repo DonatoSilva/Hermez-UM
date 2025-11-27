@@ -5,7 +5,7 @@ tags:
   - Domiciliario
   - Configuración
   - Vehículos
-pubDate: 2025-11-26
+pubDate: 2025-10-28
 ---
 
 :::tip Como domiciliario, puedes registrar múltiples vehículos y seleccionar cuál usar para tus entregas. :::

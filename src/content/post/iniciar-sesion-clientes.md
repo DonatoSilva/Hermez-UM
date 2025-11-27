@@ -6,7 +6,7 @@ tags:
   - Usuario
   - Autenticación
   - Acceso
-pubDate: 2025-11-27
+pubDate: 2025-10-12
 ---
 
 :::tip Hermez ofrece múltiples formas de iniciar sesión para tu comodidad: correo electrónico, Google o Facebook. :::
@@ -18,6 +18,8 @@ Desde la **pantalla de inicio** de Hermez:
 1. Haz clic en el **área de clientes**, o
 2. Presiona la tecla **K** como atajo rápido
 
+![Pantalla de inicio de sesión](/images/InicioSesion/step1.png)
+
 ## Métodos de Inicio de Sesión
 
 Hermez ofrece tres métodos para acceder a tu cuenta:
@@ -28,6 +30,8 @@ Hermez ofrece tres métodos para acceder a tu cuenta:
 
 - Introduce el **correo electrónico** con el que te registraste en Hermez
 
+![Ingresar correo electrónico](/images/InicioSesion/step2%20-%20ingresar%20correro.png)
+
 #### Paso 2: Verificación por Código
 
 Si tu cuenta no tiene contraseña configurada:
@@ -37,6 +41,8 @@ Si tu cuenta no tiene contraseña configurada:
 3. Escribe el código en las casillas que aparecen en pantalla
 4. Haz clic en **"Continuar"**
 
+![Verificación por código](/images/InicioSesion/step3%20-%20verificacion%20por%20código.png)
+
 :::info Este método de verificación por código es más seguro y elimina la necesidad de recordar contraseñas. :::
 
 ### 2️⃣ Inicio con Google
@@ -44,6 +50,8 @@ Si tu cuenta no tiene contraseña configurada:
 #### Paso 1: Seleccionar Método
 
 - En la pantalla de inicio de sesión, haz clic en el botón de **Google**
+
+![Seleccionar método de inicio con Google](/images/InicioSesion/google%20-%20step%20-%201%20-%20btn.png)
 
 #### Paso 2: Seleccionar Cuenta
 
@@ -64,11 +72,15 @@ Si tu cuenta no tiene contraseña configurada:
 
 - En la pantalla de inicio de sesión, haz clic en el botón de **Facebook**
 
+![Botón de inicio con Facebook](/images/InicioSesion/facebook%20-%20step1%20-%20btn.png)
+
 #### Paso 2: Autorizar
 
 - Se abrirá una ventana de Facebook
 - Revisa los permisos solicitados
 - Haz clic en **"Continuar"**
+
+![Autorización de Facebook](/images/InicioSesion/step2%20-%20autorizacion.png)
 
 #### Paso 3: Acceso Automático
 
@@ -113,8 +125,10 @@ Si tu cuenta no tiene contraseña configurada:
 
 Una vez dentro de tu cuenta, tendrás acceso a:
 
-- 📦 Solicitar domicilios
+- 📦 Solicitar domicilios - luego de registrar los datos extras
 - 📍 Gestionar ubicaciones favoritas
 - 📊 Ver tu historial de pedidos
 - ⚙️ Configurar tu perfil
 - 💰 Administrar métodos de pago
+
+![Vista después de iniciar sesión](/images/InicioSesion/Inicio%20de%20sesion%20luego%20de%20registrarse%20con%20cualquier%20modo,%20y%20vista%20de%20formulario%20de%20datos%20extras.png)

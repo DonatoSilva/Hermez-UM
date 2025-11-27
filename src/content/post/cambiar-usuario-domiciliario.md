@@ -1,12 +1,12 @@
 ---
-title: Cambiar de Usuario a Domiciliario
+title: Cambiar de Rol
 description: Aprende a cambiar entre los roles de usuario y domiciliario en Hermez
 tags:
   - Roles
   - Usuario
   - Domiciliario
   - Configuración
-pubDate: 2025-11-27
+pubDate: 2025-10-26
 ---
 
 :::tip Hermez te permite alternar fácilmente entre el rol de usuario (para solicitar domicilios) y domiciliario (para realizar entregas). :::
@@ -18,13 +18,15 @@ La plataforma Hermez ofrece flexibilidad para que puedas:
 - **Como usuario**: Solicitar domicilios cuando lo necesites
 - **Como domiciliario**: Realizar entregas y generar ingresos
 
-## Cambiar de Usuario a Domiciliario
+## Cambiar de Rol
 
 ### Paso 1: Localizar el Menú de Usuario
 
 1. En la **bandeja de inicio de usuario**
 2. Dirígete a la **esquina superior derecha** donde aparece tu perfil de usuario
 3. Posiciona el puntero del mouse sobre el botón de usuario
+
+![Menú de usuario en la esquina superior derecha](/images/cambioRoll/step1.png)
 
 ### Paso 2: Acceder al Menú Desplegable
 
@@ -35,6 +37,8 @@ Al posicionar el cursor, se desplegará automáticamente una lista de opciones d
 - En el menú desplegable, localiza la opción **"Cambiar a Domiciliario"**
 - Haz clic sobre esta opción
 - La interfaz cambiará al modo domiciliario
+
+![Opción de cambio a domiciliario](/images/cambioRoll/btnRoll.png)
 
 :::info El cambio de rol es instantáneo. Una vez que cambies a domiciliario, verás la bandeja y opciones específicas para ese rol. :::
 

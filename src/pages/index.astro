@@ -9,9 +9,8 @@ const postCollection = await getCollection('post', ({ data }) => {
   return import.meta.env.DEV || data.draft !== true;
 });
 
-
 const posts = [...postCollection]
-  .sort((a, b) => b.data.pubDate!.getTime() - a.data.pubDate!.getTime())
+  .sort((a, b) => a.data.pubDate!.getTime() - b.data.pubDate!.getTime())
   .map((post) => ({
     id: post.id,
     slug: post.slug,
@@ -22,24 +21,30 @@ const posts = [...postCollection]
 
 <PageLayout>
   <section class="relative mb-16">
-    <h3 class="text-[40px] font-semibold leading-tight text-slate12">
+    <h3 class="text-slate12 text-[40px] leading-tight font-semibold">
       {slateConfig.title}
     </h3>
-    <p class="text-xl text-slate10">{slateConfig.description}</p>
+    <p class="text-slate10 text-xl">{slateConfig.description}</p>
     <Search
       client:only="react"
-      className="absolute right-0 top-1/2 -translate-y-1/2"
+      className="absolute top-1/2 right-0 -translate-y-1/2"
     />
   </section>
 
   <section class="mb-16">
-    <div class="text-base flex flex-col gap-3">
+    <div class="flex flex-col gap-3 text-base">
       {
         posts.map((item) => (
-          <a class="flex cursor-pointer flex-col justify-between rounded-lg border border-[var(--color-H-blue-300)] bg-white/80 py-2.5 transition-all active:scale-[0.995] sm:flex-row sm:items-center sm:px-2 hover:bg-[var(--color-H-blue-100)] dark:bg-[var(--color-H-black)] dark:border-[var(--color-H-blue-700)] dark:hover:bg-[var(--color-H-blue-900)]" href={item.url} title={item.data.title}>
-            <span class="shrink-0 text-[var(--color-H-blue-900)] dark:text-[var(--color-H-blue-300)]">{item.data.title}</span>
-            <span class="mx-8 hidden h-px w-full grow border-t border-dashed border-[var(--color-H-blue-300)] dark:border-[var(--color-H-blue-700)] sm:flex" />
-            <span class="shrink-0 text-[var(--color-H-blue-700)] dark:text-[var(--color-H-blue-300)]">
+          <a
+            class="border-(--color-H-blue-300)] hover:bg-(--color-H-blue-100)] dark:bg-(--color-H-black)] dark:border-(--color-H-blue-700)] dark:hover:bg-(--color-H-blue-900)] flex cursor-pointer flex-col justify-between rounded-lg border bg-white/80 py-2.5 transition-all active:scale-[0.995] sm:flex-row sm:items-center sm:px-2"
+            href={item.url}
+            title={item.data.title}
+          >
+            <span class="text-(--color-H-blue-900)] dark:text-(--color-H-blue-300)] shrink-0">
+              {item.data.title}
+            </span>
+            <span class="border-(--color-H-blue-300)] dark:border-(--color-H-blue-700)] mx-8 hidden h-px w-full grow border-t border-dashed sm:flex" />
+            <span class="text-(--color-H-blue-700)] dark:text-(--color-H-blue-300)] shrink-0">
               {item.data.pubDate?.toLocaleDateString('es-ES', {
                 year: 'numeric',
                 month: 'short',
@@ -52,6 +57,4 @@ const posts = [...postCollection]
     </div>
     <!-- <Button className='m-auto mt-6' block> More </Button> -->
   </section>
-
-  
 </PageLayout>

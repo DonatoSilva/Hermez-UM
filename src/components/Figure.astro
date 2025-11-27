@@ -1,8 +1,27 @@
 ---
-interface Props { src: string; alt: string; caption?: string; width?: number; height?: number }
-const { src, alt, caption, width, height } = Astro.props as Props
+interface Props {
+  src: string;
+  alt: string;
+  caption?: string;
+  width?: number;
+  height?: number;
+}
+const { src, alt, caption, width, height } = Astro.props as Props;
 ---
+
 <figure class="mx-auto my-6">
-  <img src={src} alt={alt} width={width} height={height} class="rounded-lg border border-[var(--color-H-blue-300)] bg-[var(--color-H-blue-100)]" />
-  {caption && <figcaption class="mt-2 text-center text-sm text-[var(--color-H-blue-700)]">{caption}</figcaption>}
+  <img
+    src={src}
+    alt={alt}
+    width={width}
+    height={height}
+    class="rounded-lg border border-(--color-H-blue-300) bg-(--color-H-blue-100)"
+  />
+  {
+    caption && (
+      <figcaption class="mt-2 text-center text-sm text-(--color-H-blue-700)">
+        {caption}
+      </figcaption>
+    )
+  }
 </figure>

@@ -1,75 +1,75 @@
 ---
 title: Ver Historial de Domicilios
-description: Consulta y filtra todos tus domicilios anteriores por estado, tipo de pago y fecha
+description: Consulta y filtra todos tus servicios anteriores por estado, tipo de pago y fecha
 tags:
   - Historial
   - Usuario
+  - Domiciliario
   - Filtros
   - Seguimiento
-pubDate: 2025-11-27
+pubDate: 2025-10-24
 ---
 
-:::tip Utiliza los filtros del historial para encontrar rápidamente domicilios específicos y revisar el estado de tus entregas. :::
+:::tip El historial se adapta a tu rol actual: como **Usuario** verás tus solicitudes y como **Domiciliario** verás tus servicios realizados. :::
 
 ## Acceder al Historial
 
+Para acceder a tu historial de servicios:
+
 1. En la **barra de opciones** superior de la aplicación
 2. Haz clic en **Historial**
-3. Se mostrará una lista completa de todos los domicilios que has solicitado
 
-## Estados de los Domicilios
+![Acceso al historial](/images/historial/step1.png)
 
-En el historial podrás ver cada domicilio con su estado actual:
+## Vista General del Historial
 
-- 📦 **Asignado**: El domiciliario está realizando la entrega
-- 📦 **Recogido**: El domiciliario está realizando la entrega
-- 📦 **En camino**: El domiciliario está realizando la entrega
-- ✅ **Entregado**: El domicilio fue completado exitosamente
-- 💰 **Pagado**: El pago del domicilio ha sido procesado
+Al ingresar, verás una lista completa de los servicios. La información mostrada dependerá de tu rol activo:
+
+- **👤 Rol Usuario**: Verás todos los domicilios que has **solicitado**.
+- **🛵 Rol Domiciliario**: Verás todos los servicios que has **realizado** o completado.
+
+![Vista general del historial](/images/historial/vistaGeneral.png)
+
+## Detalles del Servicio
+
+Cada tarjeta de servicio en el historial muestra información clave como el estado, fecha y monto.
+
+![Tarjeta de detalle de domicilio](/images/historial/Detalles%20Domicilio%20-%20card.png)
+
+Si haces clic en una tarjeta, podrás ver **todos los detalles** y el **historial de eventos** paso a paso de ese servicio específico:
+
+![Modal con todos los detalles y eventos](/images/historial/Detalles%20Domicilio%20-%20modal%20todos%20los%20detalles%20-%20Historial%20de%20eventos.png)
 
 ## Filtrar el Historial
 
-### Paso 1: Abrir el Panel de Filtros
+Para encontrar servicios específicos, puedes usar las herramientas de filtrado.
 
-- En la parte superior del historial, localiza el **ícono de filtro**
-- Haz clic sobre el ícono para abrir el panel de filtros
+### Paso 1: Abrir Filtros
 
-### Paso 2: Configurar los Filtros
+Haz clic en el **botón de filtro** ubicado en la parte superior derecha de la lista:
 
-El panel de filtros te permite refinar tu búsqueda por:
+![Botón de filtro](/images/historial/filter%20-%20btnFilter.png)
 
-#### Por Estado
+### Paso 2: Configurar Criterios
 
-- Entregado
-- Pagado
-- En camino
-- Otros estados disponibles
+Se abrirá un panel con tres secciones de filtrado:
 
-#### Por Tipo de Pago
+1.  **Por Estado**: (Entregado, Pagado, En camino, etc.)
+2.  **Por Tipo de Pago**: (Efectivo, Tarjeta, Transferencia)
+3.  **Por Fecha**: Selecciona el mes y año específico
 
-- Efectivo
-- Tarjeta
-- Transferencia
-- Otros métodos de pago
+![Panel de filtros con 3 secciones](/images/historial/filtro%20-%20modalFiltroCon3secciones.png)
 
-#### Por Período
+### Paso 3: Aplicar
 
-- Selecciona el **mes** específico en el que se realizaron los domicilios
-- Útil para revisar entregas de períodos anteriores
+Selecciona los criterios que necesitas y haz clic en **"Aplicar Filtro"** para actualizar la lista.
 
-### Paso 3: Aplicar los Filtros
+:::info Puedes combinar múltiples filtros para búsquedas precisas, como "Servicios entregados en efectivo durante octubre". :::
 
-1. Selecciona los criterios deseados
-2. En la parte inferior del panel, haz clic en **"Aplicar Filtro"**
-3. El historial se actualizará mostrando solo los domicilios que coincidan con tus criterios
+## Estados de los Domicilios
 
-:::info Puedes combinar múltiples filtros para búsquedas más específicas. Por ejemplo, "Domicilios entregados pagados en efectivo durante noviembre". :::
+En el historial podrás identificar cada servicio por su estado:
 
-## Beneficios del Historial
-
-- 📊 **Control total** sobre tus domicilios pasados
-- 🔍 **Búsqueda rápida** con filtros personalizados
-- 💡 **Transparencia** en estados y pagos
-- 📅 **Organización** por fecha y método de pago
-
-:::note El historial se actualiza en tiempo real. Los cambios de estado se reflejan automáticamente. :::
+- 📦 **Asignado/Recogido/En camino**: El servicio está en progreso
+- ✅ **Entregado**: El servicio fue completado exitosamente
+- 💰 **Pagado**: El pago ha sido procesado

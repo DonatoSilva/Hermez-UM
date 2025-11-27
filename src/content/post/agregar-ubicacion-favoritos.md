@@ -6,7 +6,7 @@ tags:
   - Ubicaciones
   - Favoritos
   - Usuario
-pubDate: 2025-11-26
+pubDate: 2025-10-20
 ---
 
 :::tip Guarda tus ubicaciones más frecuentes como favoritas para solicitar domicilios más rápidamente. :::
