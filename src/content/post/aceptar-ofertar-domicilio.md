@@ -1,73 +1,80 @@
 ---
-title: Gestionar Solicitudes de Domicilio
-description: Aprende a ver, aceptar, rechazar y contraofertar solicitudes de domicilio
+title: Seguimiento de Solicitud y Selección de Ofertas
+description: Guía para gestionar tu solicitud, aceptar ofertas de domiciliarios y rastrear tu pedido en tiempo real.
 tags:
-  - Domiciliario
+  - Usuario
   - Solicitudes
   - Ofertas
-  - Trabajo
-pubDate: 2025-10-31
+  - Seguimiento
+pubDate: 2025-10-24
+image: /images/acept-offert/parte1.png
 ---
 
-:::warning Esta funcionalidad es exclusiva para usuarios con el rol de **Domiciliario**. :::
+Una vez que has enviado tu solicitud de domicilio, entrarás en una etapa de espera donde los domiciliarios podrán ver tu pedido y enviar sus ofertas.
 
-## Bandeja de Solicitudes
+## Panel de Espera de Ofertas
 
-Al activar tu estado como "Disponible", comenzarás a ver las solicitudes de domicilio cercanas en tu pantalla de inicio.
+La pantalla se divide en dos secciones principales de manera vertical para facilitarte el control de la solicitud:
 
-![Bandeja de solicitudes](/images/cambiardisponibilidad/Home%20delivery.png)
+![Vista general de espera](/images/acept-offert/parte1.png)
 
-Cada tarjeta de solicitud te muestra información básica:
+### Elementos de la Interfaz
 
-- **Distancia**: Qué tan lejos está el punto de recogida.
-- **Precio**: Cuánto ofrece el usuario por el servicio.
-- **Origen y Destino**: Direcciones aproximadas.
+En esta vista encontrarás indicadores visuales importantes señalados en la imagen:
 
-## Acciones Disponibles
+1.  **Cronómetro (Amarillo)**: Indica el tiempo restante para que tu solicitud expire.
+2.  **Sección de Ofertas (Verde)**: Aquí aparecerán las propuestas de los domiciliarios.
+3.  **Precio de Solicitud (Negro)**: El valor que ofreciste inicialmente por el servicio.
 
-Ante cada solicitud, tienes varias opciones para interactuar:
+![Detalle de controles](/images/acept-offert/parte2.png)
 
-### 1. Ver Detalles Completos
+### Botones de Acción
 
-Antes de decidir, puedes ver toda la información del domicilio.
+Cuentas con herramientas para gestionar tu solicitud mientras esperas, señaladas con flechas:
 
-- Haz clic en el botón de **"Ver Detalles"** (ícono de ojo o botón dedicado en la tarjeta).
+- **Cancelar Solicitud (Flecha Verde)**: Botón para cancelar la solicitud si deseas anular el pedido.
+- **Nueva Tarifa (Flecha Morada)**: Botón para hacer una nueva tarifa por el servicio si no recibes ofertas.
 
-![Botón ver detalles](/images/acept-quote/card%20quotes%20-%20btn%20de%20ver%20dato%20de%20solicitud.png)
+![Botones de ajuste de precio](/images/acept-offert/botones%20para%20aumentar%20o%20reducir%20el%20valor%20que%20el%20cliente%20considera%20que%20vale%20su%20domicilio.png)
 
-Se abrirá una ventana con el mapa, descripción del paquete y notas del usuario.
+## Gestión de Ofertas
 
-![Modal de detalles](/images/acept-quote/modal%20de%20quotes%20luego%20de%20darle%20en%20el%20boton%20ver%20dato%20de%20solicitud.png)
+Cuando un domiciliario acepta tu solicitud o envía una contraoferta, la verás reflejada en la lista de ofertas.
 
-### 2. Aceptar la Oferta
+### Aceptar una Oferta
 
-Si estás de acuerdo con el precio propuesto por el usuario:
+Si estás de acuerdo con el precio y el domiciliario asignado:
 
-- Haz clic en el botón **"Aceptar"** (generalmente un botón verde o con check).
-- El servicio se te asignará inmediatamente si eres el primero en aceptar.
+1.  Revisa la oferta en la lista (indicador a mano derecha).
+2.  Presiona el botón de aceptar para confirmar el servicio.
 
-![Botones de aceptar](/images/acept-quote/en%20card%20quote,%20tenemos%20los%20botnes%20cerrados%20en%20un%20rectandulo%20en%20rojo%20en%20la%20imagen%20que%20sirven%20para%20aceptar%20la%20solicitud.png)
+![Lista de ofertas](/images/acept-offert/step%201%20-%20a%20mano%20derecha%20se%20puede%20observar%20las%20ofertas%20con%20un%20indicador%20y%20btns%20para%20rechazar%20y%20aceptar.png)
 
-### 3. Contraofertar (Proponer otro precio)
+![Aceptar oferta](/images/acept-offert/aceptar%20offert.png)
 
-Si consideras que el precio es muy bajo, puedes proponer una tarifa diferente.
+También puedes rechazar ofertas que no te interesen:
 
-1. Haz clic en el botón de **"Ofertar"** (ícono de billete o signo pesos).
+![Rechazar oferta](/images/acept-offert/btn%20rechazar%20offer.png)
 
-![Botón ofertar](/images/acept-quote/btn%20ofertar%20un%20precio%20diferente%20a%20que%20el%20usuario%20quiere%20-%20step%201.png)
+## Seguimiento en Tiempo Real
 
-2. Ingresa el monto que deseas cobrar en el cuadro de diálogo.
-3. Haz clic en **"Enviar Oferta"**.
+Una vez aceptada una oferta, el domicilio se asigna a un domiciliario y podrás verlo en tu pantalla de inicio.
 
-![Modal de contraoferta](/images/acept-quote/btn%20ofertar%20un%20precio%20diferente-%20step%202%20-%20%20modal%20se%20pone%20precio%20se%20da%20en%20solicitar.png)
+![Solicitud en curso en Home](/images/acept-offert/si%20hay%20una%20solicitud%20en%20proceso%20-%20aparece%20en%20el%20home%20del%20usurio%20con%20cant%20de%20offertas.png)
 
-:::info El usuario recibirá tu contraoferta y decidirá si la acepta o espera a otro domiciliario. :::
+### Ciclo de Vida del Pedido
 
-### 4. No Me Interesa
+Podrás ver en tiempo real cómo avanza tu domicilio a través de los diferentes estados:
 
-Si no deseas realizar un servicio específico y quieres limpiar tu bandeja:
+![Estado 1](/images/acept-offert/ciclo%20de%20vida%20domiciliario%20-%20satus%201.png) ![Estado 2](/images/acept-offert/ciclo%20de%20vida%20domiciliario%20-%20satus%202.png) ![Estado 3](/images/acept-offert/ciclo%20de%20vida%20domiciliario%20-%20satus%203.png) ![Estado 4](/images/acept-offert/ciclo%20de%20vida%20domiciliario%20-%20status%204.png)
 
-- Haz clic en el botón de **"Cerrar"** o **"X"** en la esquina de la tarjeta.
-- La solicitud desaparecerá de tu vista.
+Finalmente, cuando el servicio concluya:
 
-![Botón cerrar](/images/acept-quote/en%20caso%20de%20no%20interesar%20la%20quoter%20-%20btn%20en%20forma%20de%20X%20para%20dejar%20de%20verla.png)
+![Estado final](/images/acept-offert/status%20fanial%20-%20ciclo%20de%20vida%20del%20domicilio.png)
+
+### Opciones Adicionales
+
+Durante el proceso, tienes botones para acciones específicas:
+
+- **Extender el tiempo**: Si necesitas más tiempo para la solicitud. ![Extender tiempo](</images/acept-offert/btn%20para%20extender%20tiempo%20de%20la%20solicitud%20(quotes).png>)
+- **Cancelar**: En caso de que necesites cancelar el servicio. ![Cancelar](</images/acept-offert/btn%20para%20cancelar%20la%20solicitud%20(quotes).png>)
