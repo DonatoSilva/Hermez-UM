@@ -1,11 +1,11 @@
 ---
-title: Aceptar Domicilios
-description: Guía completa para aceptar, rechazar o hacer contraofertas en domicilios disponibles
+title: Realizar Oferta a Solicitud de Domicilio
+description: Guía completa para aceptar, rechazar o hacer contraofertas en solicitudes de domicilios disponibles
 tags:
   - Domiciliario
   - Entregas
   - Ofertas
-  - Inicio
+  - Solicitudes
 pubDate: 2025-11-27
 ---
 
