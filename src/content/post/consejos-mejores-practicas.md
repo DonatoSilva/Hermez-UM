@@ -21,5 +21,3 @@ pubDate: 2025-10-30
 - Sé puntual para mejores calificaciones
 - Contraoferta con precios razonables
 - Mantén datos bancarios actualizados
-
-![Consejos](/images/consejos.png)

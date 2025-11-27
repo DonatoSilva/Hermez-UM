@@ -8,51 +8,66 @@ tags:
 pubDate: 2025-10-28
 ---
 
-:::tip Como domiciliario, puedes registrar múltiples vehículos y seleccionar cuál usar para tus entregas. :::
+:::warning Esta funcionalidad es exclusiva para usuarios con el rol de **Domiciliario**. Asegúrate de haber cambiado de rol antes de continuar. :::
 
 ## Acceder a la Gestión de Vehículos
 
-1. En la bandeja de **Domiciliario**, dirígete a la **barra de opciones**
-2. Haz clic en **Configuración**
-3. En el panel lateral izquierdo, debajo de "Configuraciones", selecciona **Vehículos**
+Para administrar tu flota, primero debes ingresar a la configuración:
+
+1. En la bandeja de **Domiciliario**, ve a la **barra de opciones**.
+2. Haz clic en **Configuración**.
+
+![Ir a configuración](/images/vehicle/step1%20-%20estando%20en%20configuraciones%20se%20da%20en%20vehiculos.png)
+
+3. Selecciona la opción **Vehículos**.
 
 ## Agregar un Nuevo Vehículo
 
-### Paso 1: Iniciar el Registro
+### Paso 1: Iniciar Registro
 
-- En la bandeja de Vehículos, encontrarás un botón **"Agregar Vehículo"** en el lateral derecho
-- Haz clic sobre este botón
+- Haz clic en el botón **"Agregar Vehículo"** ubicado a la derecha.
 
-### Paso 2: Completar el Formulario
+![Botón agregar vehículo](/images/vehicle/step2%20-%20luego%20en%20el%20btn%20de%20agregar%20vehiculo.png)
 
-Al hacer clic, aparecerá un formulario de registro donde deberás ingresar los datos del vehículo.
+### Paso 2: Completar Datos
 
-:::info El botón **"Guardar Vehículo"** en la parte inferior solo se habilitará cuando hayas completado todos los campos obligatorios. :::
+- Llena el formulario con la información de tu vehículo (Placa, Modelo, Color, etc.).
+- Haz clic en **"Guardar Vehículo"**.
 
-### Paso 3: Guardar el Vehículo
+![Formulario de vehículo](/images/vehicle/step3%20-%20llenar%20los%20datos%20y%20darle%20guardar%20vehiculo.png)
 
-- Completa todos los datos requeridos
-- Una vez todos los campos obligatorios estén llenos, el botón de guardar se activará
-- Haz clic en **"Guardar Vehículo"**
+### Paso 3: Confirmación
 
-## Gestionar tus Vehículos
+- Si todo es correcto, verás tu nuevo vehículo en la lista.
 
-Una vez agregado el vehículo, este aparecerá en la bandeja de vehículos con las siguientes opciones:
+![Vehículo agregado](/images/vehicle/step%204%20si%20todo%20sale%20correcto%20se%20vera%20el%20nuevo%20vehiculo.png)
 
-### Seleccionar Vehículo Activo
+## Editar Vehículo
 
-- Cada vehículo tiene un ícono de **llave** en la esquina inferior derecha
-- Haz clic en la llave del vehículo que deseas utilizar para tus entregas
-- Este será el vehículo activo para tus domicilios
+Si necesitas actualizar algún dato de tu vehículo:
 
-### Editar Datos del Vehículo
+1. Ubica la tarjeta del vehículo que deseas modificar.
+2. Haz clic en el botón con el **ícono de lápiz** ✏️.
+3. Actualiza la información necesaria en el formulario y guarda los cambios.
 
-- Puedes modificar la información de cualquier vehículo registrado
-- Accede a las opciones de edición desde la tarjeta del vehículo
+## Eliminar Vehículo
 
-### Eliminar un Vehículo
+Si ya no vas a utilizar un vehículo, puedes eliminarlo:
 
-- Si ya no utilizas un vehículo, puedes eliminarlo de tu lista
-- Selecciona la opción de eliminar en el vehículo correspondiente
+### Paso 1: Eliminar
 
-:::warning Asegúrate de tener al menos un vehículo activo antes de eliminar otros vehículos de tu cuenta. :::
+- Haz clic en el botón con el **ícono de basurera** 🗑️ en la tarjeta del vehículo.
+
+![Botón eliminar](/images/vehicle/eliminar%20vehiculo,%20step%201,%20dar%20en%20el%20btn%20de%20la%20basurera%20correspondiente%20al%20vehiculo%20que%20vamos%20a%20eliminar.png)
+
+### Paso 2: Confirmar
+
+- Aparecerá un mensaje de confirmación. Acepta para proceder.
+
+![Confirmación de eliminación](/images/vehicle/eliminar%20vehiculo%20-%20step%202%20aparecera%20un%20mensaje%20de%20confirmacion.png)
+
+### Paso 3: Resultado
+
+- El vehículo desaparecerá de tu lista y verás un mensaje de éxito.
+
+![Eliminación exitosa](/images/vehicle/eliminar%20vehiculo,%20step%203%20en%20caso%20de%20salir%20todo%20bien%20se%20vera%20refrejado%20en%20la%20panatalla%20el%20cambio%20y%20un%20tast%20de%20exito.png)
