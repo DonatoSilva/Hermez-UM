@@ -36,15 +36,15 @@ const posts = [...postCollection]
       {
         posts.map((item) => (
           <a
-            class="border-(--color-H-blue-300)] hover:bg-(--color-H-blue-100)] dark:bg-(--color-H-black)] dark:border-(--color-H-blue-700)] dark:hover:bg-(--color-H-blue-900)] flex cursor-pointer flex-col justify-between rounded-lg border bg-white/80 py-2.5 transition-all active:scale-[0.995] sm:flex-row sm:items-center sm:px-2"
+            class="flex cursor-pointer flex-col justify-between rounded-lg border border-[var(--color-H-blue-300)] bg-white/80 py-2.5 transition-all hover:bg-[var(--color-H-blue-100)] active:scale-[0.995] sm:flex-row sm:items-center sm:px-2 dark:border-[var(--color-H-blue-700)] dark:bg-[var(--color-H-black)] dark:hover:bg-[var(--color-H-blue-900)]"
             href={item.url}
             title={item.data.title}
           >
-            <span class="text-(--color-H-blue-900)] dark:text-(--color-H-blue-300)] shrink-0">
+            <span class="shrink-0 text-[var(--color-H-blue-900)] dark:text-[var(--color-H-blue-300)]">
               {item.data.title}
             </span>
-            <span class="border-(--color-H-blue-300)] dark:border-(--color-H-blue-700)] mx-8 hidden h-px w-full grow border-t border-dashed sm:flex" />
-            <span class="text-(--color-H-blue-700)] dark:text-(--color-H-blue-300)] shrink-0">
+            <span class="mx-8 hidden h-px w-full grow border-t border-dashed border-[var(--color-H-blue-300)] sm:flex dark:border-[var(--color-H-blue-700)]" />
+            <span class="shrink-0 text-[var(--color-H-blue-700)] dark:text-[var(--color-H-blue-300)]">
               {item.data.pubDate?.toLocaleDateString('es-ES', {
                 year: 'numeric',
                 month: 'short',
